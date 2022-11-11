@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res)=>{res.sendFile('index.html')});
 app.get("/Register here",(req, res)=>{res.send("register.html");});
 app.get("/aboutus",(req,res)=>{res.send("aboutus.html")});
-app.get("/contactus",(req,res)=>{res.send("salchewar000@gmail.com")});
+app.get("/contactus",(req,res)=>{res.send("contactus.html")});
 //app.get("/Register",(req,res)=>{res.send("")});
 // app.get("/products",(req, res)=>{
 
